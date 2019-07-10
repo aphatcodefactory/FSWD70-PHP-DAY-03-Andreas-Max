@@ -15,13 +15,6 @@
     <div class="container-fluid">
       <div class="jumbotron">
         <h1 class="display-4">Register here</h1>
-        <?php
-          if (isset($errMSG)) {
-            echo "<div class=\"alert {$errTyp}\">{$errMSG}</div>";
-          } else {
-            $errMSG = null;
-          }
-        ?>
         <a href="./" class="lead">Here goes back to the login page.</a>
         <hr class="my-4">
         <form action="actions/a_register.php" method="post">
